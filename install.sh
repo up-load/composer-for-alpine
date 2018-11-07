@@ -1,5 +1,5 @@
 #!/bin/sh
-apk --no-cache add git openssh php curl php7-curl php7-cli php7-fpm php7-json php7-phar php7-openssl php7-iconv php7-mbstring
+apk --no-cache add openssh php curl php7-curl php7-cli php7-fpm php7-json php7-phar php7-openssl php7-iconv php7-mbstring
 PHP_FPM_USER="www-data"
 PHP_FPM_GROUP="www-data"
 PHP_FPM_LISTEN_MODE="0660"
